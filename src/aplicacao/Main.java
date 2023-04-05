@@ -38,9 +38,9 @@ public class Main {
         servicoAluguel.processoFatura(aluguelCarro);
 
         System.out.println("FATURA: ");
-        System.out.printf("Pagamento básico: R$%.2f", aluguelCarro.getFatura().getPagamentoBasico());
-        System.out.printf("Imposto:  R$%.2f",aluguelCarro.getFatura().getImposto());
-        System.out.printf("Pagamento total: R$%.2f", aluguelCarro.getFatura().getTotalPagamento());
+        System.out.printf("Pagamento básico: R$%.2f\n", aluguelCarro.getFatura().getPagamentoBasico());
+        System.out.printf("Imposto:  R$%.2f\n",aluguelCarro.getFatura().getImposto());
+        System.out.printf("Pagamento total: R$%.2f\n", aluguelCarro.getFatura().getTotalPagamento());
 
 
         sc.close();
